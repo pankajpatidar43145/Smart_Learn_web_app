@@ -1,0 +1,54 @@
+/* styles.css */
+
+.video-container {
+  width: 100%;
+  /* Set the width to 100% of its container */
+  height: 700px;
+  /* Set the desired height for the video frame */
+}
+
+.teachervideoh2 {
+  font-size: 20px;
+  /* Adjust the font size as needed */
+  text-align: center;
+  /* Center-align the text */
+  margin-top: -10px;
+  /* Add spacing from the top */
+  color: #333;
+  /* Text color */
+  /* You can customize other styles (font-family, background, etc.) as needed */
+}
+
+.teacher-back-button2 {
+  background-color: #0a0a0a;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  /* Remove button border */
+  padding: 10px 20px;
+  /* Add some padding */
+  font-size: 16px;
+  /* Button font size */
+  cursor: pointer;
+  /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+  display: flex;
+  /* Enable flex layout for icon and text alignment */
+  align-items: center;
+  /* Center items vertically */
+  position: fixed;
+  /* Fixed positioning */
+  top: 0px;
+  /* Position at the top */
+  left: 0;
+  /* Position at the left */
+}
+
+/* Style the FontAwesome icon inside the button */
+
+.teacher-back-button2 .svg-inline--fa {
+  margin-right: 5px;
+  /* Add some space between the icon and text */
+}

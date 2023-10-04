@@ -1,0 +1,89 @@
+/* studentlogin.css */
+
+.login-container {
+  width: 500px;
+}
+
+h1 {
+  color: rgb(77, 1, 77);
+  font-size: 24px;
+}
+
+.input-group {
+  margin: 10px 0;
+  text-align: left;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.register-button {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: none;
+  background-color: rebeccapurple;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.register-button:hover {
+  background-color: indigo;
+  /* Change color on hover */
+}
+
+/* studentlogin.css */
+
+.forgot-password-button {
+  background-color: #28a745;
+  /* Button background color */
+  color: #fff;
+  /* Text color */
+  padding: 10px 20px;
+  /* Padding for the button */
+  border: none;
+  /* Remove button border */
+  border-radius: 5px;
+  /* Add a rounded corner */
+  cursor: pointer;
+  /* Show a pointer cursor on hover */
+  font-size: 10px;
+  /* Font size */
+  margin-top: 10px;
+  /* Add margin to separate the button */
+}
+
+.forgot-password-button:hover {
+  background-color: #28a745;
+  /* Change background color on hover */
+}

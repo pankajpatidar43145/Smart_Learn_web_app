@@ -1,0 +1,136 @@
+/* teachervideos.css */
+
+/* Reset default styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a background color */
+
+/* Container for the video cards */
+
+.timestampspage-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Page title */
+
+.timestampspage-title {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: "Poppins", sans-serif;
+  /* Change to your desired font family */
+}
+
+/* Search input */
+
+.search-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Video card container */
+
+.video-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Video card styles */
+
+.video-card {
+  background-color: #fdfbfb;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 50px;
+  /* Increase the padding to make cards larger */
+  box-shadow: 10px 10px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* You can also increase font size and button padding if needed */
+
+.video-description {
+  font-size: 20px;
+  /* Increase font size if needed */
+  margin-bottom: 15px;
+  /* Increase margin if needed */
+}
+
+.know-more-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 24px;
+  /* Increase padding to make the button larger */
+  font-size: 12px;
+  /* Increase font size if needed */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.know-more-button:hover {
+  background-color: #0056b3;
+}
+
+/* Loading and error styles */
+
+.timestampspage-loading,
+.timestampspage-error {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.student-video-back-button {
+  background-color: #0a0a0a;
+  /* Button background color */
+  color: #fff;
+  /* Button text color */
+  border: none;
+  /* Remove button border */
+  padding: 10px 20px;
+  /* Add some padding */
+  font-size: 16px;
+  /* Button font size */
+  cursor: pointer;
+  /* Show pointer cursor on hover */
+  transition: background-color 0.3s ease;
+  /* Smooth background color transition */
+  display: flex;
+  /* Enable flex layout for icon and text alignment */
+  align-items: center;
+  /* Center items vertically */
+  position: fixed;
+  /* Fixed positioning */
+  top: 50px;
+  /* Position at the top */
+  left: 0;
+  /* Position at the left */
+}
+
+/* Style the FontAwesome icon inside the button */
+
+.student-video-back-button .svg-inline--fa {
+  margin-right: 5px;
+  /* Add some space between the icon and text */
+}

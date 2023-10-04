@@ -1,0 +1,22 @@
+.register-container {
+  width: 500px;
+}
+
+.register-container button {
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  /* Add a smooth hover effect */
+}
+
+.register-container button:hover {
+  background-color: indigo;
+  margin-top: 5px;
+  /* Change color on hover */
+}
