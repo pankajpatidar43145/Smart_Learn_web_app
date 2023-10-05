@@ -40,21 +40,12 @@
   cursor: pointer;
 }
 
-.teacherprofile-button:hover,
-*/
-/* teacherhome.css */
-
-
-/* Global styles */
-
-body {
+.body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f2f2f2;
 }
-
-/* Header styles */
 
 .header {
   background-color: #333;
@@ -73,8 +64,6 @@ body {
   cursor: pointer;
 }
 
-/* Container styles */
-
 .teacher-home-container {
   max-width: 800px;
   margin: 20px auto;
@@ -83,14 +72,10 @@ body {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Headings */
-
 h1,
 h2 {
   color: #333;
 }
-
-/* Add YouTube Section styles */
 
 .add-youtube-section {
   margin-top: 20px;
@@ -116,8 +101,6 @@ h2 {
   background-color: #555;
 }
 
-/* Video Section styles */
-
 .video-section {
   margin-top: 20px;
 }
@@ -125,8 +108,6 @@ h2 {
 .video-section p {
   color: #777;
 }
-
-/* Add Question Section styles */
 
 .add-question-section {
   margin-top: 20px;
@@ -144,8 +125,6 @@ h2 {
   background-color: #555;
 }
 
-/* Questions Section styles */
-
 .questions-section {
   margin-top: 20px;
 }
@@ -160,8 +139,6 @@ h2 {
   color: #333;
 }
 
-/* Upload Button styles */
-
 .upload-button {
   background-color: #333;
   color: #fff;
@@ -175,50 +152,30 @@ h2 {
   background-color: #555;
 }
 
-/* Responsive styles for smaller screens */
-
 @media (max-width: 768px) {
   .teacher-home-container {
-    padding: 10px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
-}
-
-.teacher-home-container {
-  max-width: 1000px;
-  /* Increase the max-width value */
-  margin: 20px auto;
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .teacher-logout-button {
   background-color: red;
-  /* Background color */
   color: white;
-  /* Text color */
   border: none;
-  /* Remove button border */
   padding: 10px 20px;
-  /* Padding to make the button larger */
   border-radius: 5px;
-  /* Rounded corners */
   cursor: pointer;
-  /* Show a pointer cursor on hover */
   font-size: 16px;
-  /* Font size */
   transition: background-color 0.3s ease;
-  /* Smooth background color transition on hover */
-  /* Add shadow for a raised effect */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  /* Center the text and button */
   display: inline-block;
   text-align: center;
   position: fixed;
-  /* Fixed position to keep it at the top-right corner */
   top: 30px;
-  /* Flush against the top edge of the viewport */
   right: 0;
-  /* Flush against the right edge of the viewport */
   margin: 20px;
 }
