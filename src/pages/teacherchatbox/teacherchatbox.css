@@ -1,7 +1,4 @@
-/* chatbox.css */
-
 .chatbox-container {
-  /* Updated class name */
   background-color: #7f7fd5;
   background: -webkit-linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
   background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
@@ -12,14 +9,12 @@
 }
 
 .chatbox-heading {
-  /* Updated class name */
   font-size: 24px;
   margin-bottom: 20px;
   color: white;
 }
 
 .chatboxteacherlist {
-  /* Updated class name */
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -27,7 +22,6 @@
 }
 
 .chatbox-teacher-box {
-  /* Updated class name */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,26 +34,22 @@
 }
 
 .chatbox-teacher-info {
-  /* Updated class name */
   flex: 1;
   color: white;
 }
 
 .chatbox-teacher-name {
-  /* Updated class name */
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
 
 .chatbox-teacher-email {
-  /* Updated class name */
   font-size: 16px;
   color: white;
 }
 
 .chatbox-button {
-  /* Updated class name */
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   border: none;
@@ -71,19 +61,13 @@
 }
 
 .chatbox-button:hover {
-  /* Updated class name */
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-/* Add this CSS to your chatbox.css file */
 
 .my-search-bar {
   margin-bottom: 20px;
   width: 30%;
-  /* Adjust the width as needed */
   height: 40px;
-  /* Adjust the height as needed */
-  /* Adjust spacing as needed */
 }
 
 .my-search-bar input {
@@ -97,39 +81,23 @@
 
 .my-search-bar input:focus {
   border-color: #555;
-  /* Adjust focus border color as needed */
 }
 
 .my-back-button {
   background-color: #0a0a0a;
-  /* Button background color */
   color: #fff;
-  /* Button text color */
   border: none;
-  /* Remove button border */
   padding: 10px 20px;
-  /* Add some padding */
   font-size: 16px;
-  /* Button font size */
   cursor: pointer;
-  /* Show pointer cursor on hover */
   transition: background-color 0.3s ease;
-  /* Smooth background color transition */
   display: flex;
-  /* Enable flex layout for icon and text alignment */
   align-items: center;
-  /* Center items vertically */
   position: fixed;
-  /* Fixed positioning */
   top: 10;
-  /* Position at the top */
   left: 0;
-  /* Position at the left */
 }
-
-/* Style the FontAwesome icon inside the button */
 
 .my-back-button .svg-inline--fa {
   margin-right: 5px;
-  /* Add some space between the icon and text */
 }
