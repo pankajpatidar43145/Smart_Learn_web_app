@@ -1,5 +1,3 @@
-/* teacherprofile.css */
-
 .teacher-profile-container {
   max-width: 400px;
   margin: 0 auto;
@@ -43,34 +41,19 @@
 
 .teacher-back-button {
   background-color: #0a0a0a;
-  /* Button background color */
   color: #fff;
-  /* Button text color */
   border: none;
-  /* Remove button border */
   padding: 10px 20px;
-  /* Add some padding */
   font-size: 16px;
-  /* Button font size */
   cursor: pointer;
-  /* Show pointer cursor on hover */
   transition: background-color 0.3s ease;
-  /* Smooth background color transition */
   display: flex;
-  /* Enable flex layout for icon and text alignment */
   align-items: center;
-  /* Center items vertically */
   position: fixed;
-  /* Fixed positioning */
   top: 50px;
-  /* Position at the top */
   left: 0;
-  /* Position at the left */
 }
-
-/* Style the FontAwesome icon inside the button */
 
 .teacher-back-button .svg-inline--fa {
   margin-right: 5px;
-  /* Add some space between the icon and text */
 }
